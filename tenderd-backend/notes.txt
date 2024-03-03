@@ -1,0 +1,15 @@
+ // await consumer.run({
+  //   eachMessage: async ({ topic, partition, message }) => {
+  //     if (!message || !message.value) {
+  //       return;
+  //     }
+
+  //     const data = JSON.parse(message.value.toString());
+
+  //     const handler = topicToSubscribe[topic];
+
+  //     if (handler) {
+  //       handler(data);
+  //     }
+  //   },
+  // });
